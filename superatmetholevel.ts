@@ -15,9 +15,9 @@ class method2 extends method1
 class method3 extends method2
 {
     getDetails(){
-        super.getDetails();
+       
         console.log("This is method3")
-        
+        super.getDetails();
     }
 }
 
